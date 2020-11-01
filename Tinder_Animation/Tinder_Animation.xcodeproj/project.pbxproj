@@ -15,10 +15,13 @@
 		2157A80C253CD85600C07835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2157A80A253CD85600C07835 /* LaunchScreen.storyboard */; };
 		2157A817253CD85700C07835 /* Tinder_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157A816253CD85700C07835 /* Tinder_AnimationTests.swift */; };
 		2157A822253CD85700C07835 /* Tinder_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157A821253CD85700C07835 /* Tinder_AnimationUITests.swift */; };
+		216C114F254EFBA2007515AD /* CircularDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C114E254EFBA2007515AD /* CircularDownloadViewController.swift */; };
+		216C1158254F074F007515AD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C1157254F074F007515AD /* Networking.swift */; };
 		218603B5253D8475004444BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218603B4253D8475004444BE /* ProfileViewController.swift */; };
 		218603BB253D854F004444BE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218603BA253D854F004444BE /* CustomView.swift */; };
 		218603C3253DB2F2004444BE /* ProfileViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218603C2253DB2F2004444BE /* ProfileViewControllerExtension.swift */; };
 		218603C9253DD345004444BE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218603C8253DD345004444BE /* Helper.swift */; };
+		21958FA2254C41380043352E /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21958FA1254C41380043352E /* CustomTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +56,13 @@
 		2157A81D253CD85700C07835 /* Tinder_AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tinder_AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2157A821253CD85700C07835 /* Tinder_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_AnimationUITests.swift; sourceTree = "<group>"; };
 		2157A823253CD85700C07835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216C114E254EFBA2007515AD /* CircularDownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularDownloadViewController.swift; sourceTree = "<group>"; };
+		216C1157254F074F007515AD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		218603B4253D8475004444BE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		218603BA253D854F004444BE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		218603C2253DB2F2004444BE /* ProfileViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewControllerExtension.swift; sourceTree = "<group>"; };
 		218603C8253DD345004444BE /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		21958FA1254C41380043352E /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,17 +113,16 @@
 		2157A7FE253CD85600C07835 /* Tinder_Animation */ = {
 			isa = PBXGroup;
 			children = (
+				216C1156254F0744007515AD /* Networking */,
+				21958F9E254C40E70043352E /* Controllers */,
 				218603C7253DD339004444BE /* Helper */,
 				218603B9253D84E8004444BE /* Utils */,
 				2157A7FF253CD85600C07835 /* AppDelegate.swift */,
 				2157A801253CD85600C07835 /* SceneDelegate.swift */,
-				2157A803253CD85600C07835 /* ViewController.swift */,
 				2157A805253CD85600C07835 /* Main.storyboard */,
 				2157A808253CD85600C07835 /* Assets.xcassets */,
 				2157A80A253CD85600C07835 /* LaunchScreen.storyboard */,
 				2157A80D253CD85600C07835 /* Info.plist */,
-				218603B4253D8475004444BE /* ProfileViewController.swift */,
-				218603C2253DB2F2004444BE /* ProfileViewControllerExtension.swift */,
 			);
 			path = Tinder_Animation;
 			sourceTree = "<group>";
@@ -140,6 +145,14 @@
 			path = Tinder_AnimationUITests;
 			sourceTree = "<group>";
 		};
+		216C1156254F0744007515AD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				216C1157254F074F007515AD /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		218603B9253D84E8004444BE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +167,34 @@
 				218603C8253DD345004444BE /* Helper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		21958F9E254C40E70043352E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				216C114E254EFBA2007515AD /* CircularDownloadViewController.swift */,
+				2157A803253CD85600C07835 /* ViewController.swift */,
+				21958FA0254C411A0043352E /* CustomTableViewController */,
+				21958F9F254C40FF0043352E /* Tinder */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		21958F9F254C40FF0043352E /* Tinder */ = {
+			isa = PBXGroup;
+			children = (
+				218603B4253D8475004444BE /* ProfileViewController.swift */,
+				218603C2253DB2F2004444BE /* ProfileViewControllerExtension.swift */,
+			);
+			path = Tinder;
+			sourceTree = "<group>";
+		};
+		21958FA0254C411A0043352E /* CustomTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				21958FA1254C41380043352E /* CustomTableViewController.swift */,
+			);
+			path = CustomTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,11 +328,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				218603C3253DB2F2004444BE /* ProfileViewControllerExtension.swift in Sources */,
+				216C1158254F074F007515AD /* Networking.swift in Sources */,
 				218603C9253DD345004444BE /* Helper.swift in Sources */,
 				218603BB253D854F004444BE /* CustomView.swift in Sources */,
 				2157A804253CD85600C07835 /* ViewController.swift in Sources */,
+				21958FA2254C41380043352E /* CustomTableViewController.swift in Sources */,
 				2157A800253CD85600C07835 /* AppDelegate.swift in Sources */,
 				218603B5253D8475004444BE /* ProfileViewController.swift in Sources */,
+				216C114F254EFBA2007515AD /* CircularDownloadViewController.swift in Sources */,
 				2157A802253CD85600C07835 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vxy-RQ-AYw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iGf-vT-e4f">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -32,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykj-i4-eDw">
-                                <rect key="frame" x="111" y="466" width="98.5" height="22"/>
+                                <rect key="frame" x="111" y="417" width="98.5" height="22"/>
                                 <color key="tintColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title=" Continue" image="play.circle.fill" catalog="system">
                                     <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1134.375" y="92.957746478873247"/>
+            <point key="canvasLocation" x="2131.875" y="92.957746478873247"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="EiJ-wM-euL">
@@ -83,7 +83,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ze-vX-kre">
-                                <rect key="frame" x="0.0" y="504" width="320" height="128"/>
+                                <rect key="frame" x="0.0" y="471" width="320" height="128"/>
                                 <subviews>
                                     <view alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PZz-j5-L8C" customClass="CustomView" customModule="Tinder_Animation" customModuleProvider="target">
                                         <rect key="frame" x="138" y="8" width="44" height="44"/>
@@ -185,12 +185,12 @@
                                 <rect key="frame" x="64" y="142" width="192" height="284"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMf-4O-1kr">
-                                        <rect key="frame" x="39.5" y="10" width="113.5" height="40"/>
+                                        <rect key="frame" x="38" y="10" width="116" height="43"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Like this Dish">
                                                 <attributes>
                                                     <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="20" name=".SFNS-Regular"/>
+                                                    <font key="NSFont" metaFont="system" size="20"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -207,7 +207,7 @@ Cg
                                             <fragment content="Tomato Pizza">
                                                 <attributes>
                                                     <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="16" name=".SFNS-Regular"/>
+                                                    <font key="NSFont" metaFont="system" size="16"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -215,10 +215,10 @@ Cg
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="f0" translatesAutoresizingMaskIntoConstraints="NO" id="jAJ-U9-eKl">
-                                        <rect key="frame" x="5" y="60" width="182" height="219"/>
+                                        <rect key="frame" x="5" y="63" width="182" height="216"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thumbs" translatesAutoresizingMaskIntoConstraints="NO" id="2Fw-2f-YXP">
-                                        <rect key="frame" x="64" y="137.5" width="64" height="64"/>
+                                        <rect key="frame" x="64" y="139" width="64" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="64" id="5UI-07-IGn"/>
                                             <constraint firstAttribute="height" constant="64" id="rcr-64-x3E"/>
@@ -263,7 +263,7 @@ Cg
                             <constraint firstItem="0Ze-vX-kre" firstAttribute="leading" secondItem="2VP-lF-rd2" secondAttribute="leading" id="hrR-ri-Ain"/>
                             <constraint firstItem="Nl3-d6-Dsu" firstAttribute="leading" secondItem="2VP-lF-rd2" secondAttribute="leading" id="inW-Rl-fJv"/>
                             <constraint firstItem="R3r-Na-ogR" firstAttribute="width" secondItem="Nl3-d6-Dsu" secondAttribute="width" multiplier="0.6" id="lTt-Us-mIz"/>
-                            <constraint firstItem="0Ze-vX-kre" firstAttribute="bottom" secondItem="KbI-gE-4I5" secondAttribute="bottom" constant="64" id="r9X-6K-0cV"/>
+                            <constraint firstItem="0Ze-vX-kre" firstAttribute="bottom" secondItem="2VP-lF-rd2" secondAttribute="bottom" constant="80" id="r9X-6K-0cV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="byP-Zw-E0t">
@@ -287,12 +287,13 @@ Cg
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2133.75" y="91.901408450704224"/>
+            <point key="canvasLocation" x="3131.25" y="91.901408450704224"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Tinder-->
         <scene sceneID="4HJ-Kg-lV5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vxy-RQ-AYw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tinder" id="ihc-ee-2yc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H2F-V3-I3D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -307,7 +308,115 @@ Cg
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NSX-Tu-aLO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1134.375" y="92.957746478873247"/>
+        </scene>
+        <!--Custom Table View Controller-->
+        <scene sceneID="Vvi-El-LGg">
+            <objects>
+                <tableViewController id="RxG-Z5-k83" customClass="CustomTableViewController" customModule="Tinder_Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zIh-Fd-Z8k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="EG8-Ke-QyV">
+                                <rect key="frame" x="0.0" y="28" width="320" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EG8-Ke-QyV" id="pOf-4L-udB">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RxG-Z5-k83" id="gZO-Av-c4u"/>
+                            <outlet property="delegate" destination="RxG-Z5-k83" id="lY4-j1-mMH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="CcF-AG-8Z4"/>
+                    <connections>
+                        <segue destination="28c-Z7-AhC" kind="show" identifier="circularProgress" id="62e-AX-Ok6"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBN-TZ-dYq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="1343"/>
+        </scene>
+        <!--Circular Download View Controller-->
+        <scene sceneID="EVC-bK-lI1">
+            <objects>
+                <viewController id="28c-Z7-AhC" customClass="CircularDownloadViewController" customModule="Tinder_Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="52S-LN-vjc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="oZK-dJ-dhQ"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="f2c-zz-VpV">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="Lwd-ve-WRz">
+                            <color key="tintColor" red="0.1269734757" green="0.2072002409" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="downloadButtonCliked:" destination="28c-Z7-AhC" id="c4g-og-CW2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ydX-Me-ypa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3116" y="2152"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uEe-gn-lnB">
+            <objects>
+                <viewController id="T4y-aU-q6N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kih-mZ-VvJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="CAb-Zm-NHW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9mM-lh-z6B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3118" y="1343"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lsX-vg-ixS">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iGf-vT-e4f" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vsY-50-jNu">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vxy-RQ-AYw" kind="relationship" relationship="viewControllers" id="SxK-Fg-CdL"/>
+                        <segue destination="jIa-zr-C8r" kind="relationship" relationship="viewControllers" id="Dzf-MM-58b"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yrl-zD-kPR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="136.875" y="92.957746478873247"/>
+        </scene>
+        <!--Customs-->
+        <scene sceneID="YwG-FW-KkG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jIa-zr-C8r" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Customs" id="QRA-Ot-zd5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iNF-LH-Kvj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RxG-Z5-k83" kind="relationship" relationship="rootViewController" id="DvC-hg-3o6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vzl-3s-tdG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1134" y="1343"/>
         </scene>
     </scenes>
     <resources>
@@ -320,6 +429,9 @@ Cg
         <image name="thumbs" width="32" height="32"/>
         <image name="twitter" width="32" height="32"/>
         <image name="whatsapp" width="32" height="32"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
