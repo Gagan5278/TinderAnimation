@@ -43,21 +43,23 @@ class CustomGridViewController: UIViewController {
         self.view.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(panGesture(gesture:))))
     }
     
-    //MARK:- PanGesture selector
+    //MARK:- Spring animation reset to identity
     fileprivate func setBackToIdentity(_ perviousView: UIView, _ delay: TimeInterval)  {
-        //1. Resset identity for last view
+        //Resset identity for last view
         UIView.animate(withDuration: 0.5, delay: delay, usingSpringWithDamping: 0.5, initialSpringVelocity: 0, options: .curveEaseInOut) {
             perviousView.transform = .identity
         } completion: { (_) in }
     }
     
+    //MARK:- Spring animation with supplied scale
     fileprivate func applySpringAnimation(_ currentView: UIView, _ scale: CGFloat) {
-        //3. increase identity for current view
+        //Reset identity for current view
         UIView.animate(withDuration: 0.5, delay: 0.1, usingSpringWithDamping: 0.5, initialSpringVelocity: 0, options: .curveEaseInOut) {
             currentView.transform = CGAffineTransform(scaleX: scale, y: scale)
         } completion: { (_) in }
     }
     
+    //MARK:- PanGesture selector
     @objc fileprivate func panGesture(gesture: UIPanGestureRecognizer) {
         let location = gesture.location(in: self.view)
         let i = (Int(location.x/width))
