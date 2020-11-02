@@ -336,11 +336,28 @@ Cg
                     <navigationItem key="navigationItem" id="CcF-AG-8Z4"/>
                     <connections>
                         <segue destination="28c-Z7-AhC" kind="show" identifier="circularProgress" id="62e-AX-Ok6"/>
+                        <segue destination="v5k-6N-HeQ" kind="show" identifier="customGridView" id="lwP-QK-Z29"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EBN-TZ-dYq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2132" y="1343"/>
+        </scene>
+        <!--Custom Grid View Controller-->
+        <scene sceneID="6Cj-mQ-k9z">
+            <objects>
+                <viewController id="v5k-6N-HeQ" customClass="CustomGridViewController" customModule="Tinder_Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kIN-lP-lZ3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vtQ-l0-IU7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CzE-lF-S1N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oQI-Gq-vs2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="2152"/>
         </scene>
         <!--Circular Download View Controller-->
         <scene sceneID="EVC-bK-lI1">

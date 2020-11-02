@@ -15,7 +15,8 @@ class CustomTableViewController: UITableViewController {
         
         case customLoader = "customLoader"
         case customPopUp = "customPopUp"
-        case cirularAnimation = "cirularAnimation"
+        case circularProgress = "circularProgress"
+        case cusstomGridView  = "customGridView"
     }
     
     //MARK:- View Controller life cycle
@@ -42,12 +43,14 @@ class CustomTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let switchCases = animations.allCases[indexPath.row]
         switch switchCases {
-        case .cirularAnimation:
-            self.performSegue(withIdentifier: "circularProgress", sender: self)
+        case .circularProgress:
+            self.performSegue(withIdentifier: switchCases.rawValue, sender: self)
         case .customLoader:
             break
         case .customPopUp:
             break
+        case .cusstomGridView:
+           self.performSegue(withIdentifier: switchCases.rawValue, sender: self)
         }
     }
     
