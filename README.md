@@ -10,3 +10,6 @@ Tinder profile animation in Swift. There is a toggle  animation as well on the b
 
 ## FLUID ANIMATION
 ![FLUIDVIEW](https://user-images.githubusercontent.com/2304583/97858177-6e73ee00-1d07-11eb-8df1-ebf41f07b0b8.gif)
+
+## Facebook Like Option Animation
+![FacebookLike](https://user-images.githubusercontent.com/2304583/98021665-3fe03b00-1e0d-11eb-9465-ce37b771fe91.gif)
