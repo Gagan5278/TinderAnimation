@@ -17,6 +17,7 @@ class CustomTableViewController: UITableViewController {
         case customPopUp = "customPopUp"
         case circularProgress = "circularProgress"
         case cusstomGridView  = "customGridView"
+        case facebookLikeAnimation = "fbLikeAnimation"
     }
     
     //MARK:- View Controller life cycle
@@ -51,6 +52,8 @@ class CustomTableViewController: UITableViewController {
             break
         case .cusstomGridView:
            self.performSegue(withIdentifier: switchCases.rawValue, sender: self)
+        case .facebookLikeAnimation:
+           self.navigationController?.pushViewController(FacebookLikeViewController(), animated: true)
         }
     }
     

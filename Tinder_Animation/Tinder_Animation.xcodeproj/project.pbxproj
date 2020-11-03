@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2106B78D254F53970056BE99 /* CustomGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2106B78C254F53970056BE99 /* CustomGridViewController.swift */; };
+		2145E91225519816000F4112 /* FacebookLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2145E91125519816000F4112 /* FacebookLikeViewController.swift */; };
+		2145E9172551A190000F4112 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2145E9162551A190000F4112 /* ShadowView.swift */; };
 		2157A800253CD85600C07835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157A7FF253CD85600C07835 /* AppDelegate.swift */; };
 		2157A802253CD85600C07835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157A801253CD85600C07835 /* SceneDelegate.swift */; };
 		2157A804253CD85600C07835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157A803253CD85600C07835 /* ViewController.swift */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		2106B78C254F53970056BE99 /* CustomGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridViewController.swift; sourceTree = "<group>"; };
+		2145E91125519816000F4112 /* FacebookLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLikeViewController.swift; sourceTree = "<group>"; };
+		2145E9162551A190000F4112 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		2157A7FC253CD85600C07835 /* Tinder_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2157A7FF253CD85600C07835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2157A801253CD85600C07835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				218603BA253D854F004444BE /* CustomView.swift */,
+				2145E9162551A190000F4112 /* ShadowView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				21958FA0254C411A0043352E /* CustomTableViewController */,
 				21958F9F254C40FF0043352E /* Tinder */,
 				2106B78C254F53970056BE99 /* CustomGridViewController.swift */,
+				2145E91125519816000F4112 /* FacebookLikeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -340,6 +346,8 @@
 				218603B5253D8475004444BE /* ProfileViewController.swift in Sources */,
 				2106B78D254F53970056BE99 /* CustomGridViewController.swift in Sources */,
 				216C114F254EFBA2007515AD /* CircularDownloadViewController.swift in Sources */,
+				2145E9172551A190000F4112 /* ShadowView.swift in Sources */,
+				2145E91225519816000F4112 /* FacebookLikeViewController.swift in Sources */,
 				2157A802253CD85600C07835 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
